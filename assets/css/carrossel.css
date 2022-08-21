@@ -45,6 +45,7 @@
     padding: 1em;
 }
 
+
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
@@ -57,17 +58,17 @@
     margin: 0.5em 0;
 }
 
-.descrixao__texto {
+.descricao__texto {
     font-size: 14px;
-    color: var(--preto);
+    color: var(--preto-descricao);
+    width: 150px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .botoes__item {
     margin: 0.5em 0.5em;
-}
-
-.descricao__imagem {
-    padding: 0.1em;
 }
 
 .botoes__ancora {

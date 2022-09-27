@@ -1,3 +1,7 @@
+body {
+    font-family: var(--fonte-principal);
+}
+
 .carrossel__titulo {
     color: var(--laranja);
     text-align: center;
@@ -45,7 +49,6 @@
     padding: 1em;
 }
 
-
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
@@ -61,10 +64,10 @@
 .descricao__texto {
     font-size: 14px;
     color: var(--preto-descricao);
-    width: 150px;
+    /*    width: 150px;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    word-break: break-word;
+    word-break: break-word; */
 }
 
 .botoes__item {
@@ -79,7 +82,31 @@
     font-weight: 700;
 }
 
-.descricao__estrela{
+.descricao__estrela {
     margin: 0.5em 0;
 }
 
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+}

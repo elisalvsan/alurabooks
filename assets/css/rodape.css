@@ -1,3 +1,7 @@
+body{
+    font-family: var(--fonte-principal);
+}
+
 hr{
     margin: 0;
 }
@@ -8,5 +12,9 @@ hr{
 }
 
 .rodape__titulo{
-    color: black;
+    color: var(--preto);
+}
+
+@media screen and (min-width: 1024px){
+
 }

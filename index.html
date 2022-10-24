@@ -107,54 +107,55 @@
     </section>
 
     <section class="carrossel">
+
         <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
         <!-- Slider main container -->
-        <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="assets/img/svg/ApacheKafka.svg"
-                        alt="Livro sobre Apache Kafka e Spring Boot da alura books"></div>
-                <div class="swiper-slide"><img src="assets/img/svg/Acessibilidade.svg"
-                        alt="Livro sobre acessibilidade na web da alura books"></div>
-                <div class="swiper-slide"><img src="assets/img/svg/Javascript.svg"
-                        alt="Livro sobre JavaScript Assertivo da alura books"></div>
-                <div class="swiper-slide"><img src="assets/img/svg/MEAN.svg" alt="Livro sobre MEAN da alura books">
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/img/svg/ApacheKafka.svg"
+                            alt="Livro sobre Apache Kafka e Spring Boot da alura books"></div>
+                    <div class="swiper-slide"><img src="assets/img/svg/Acessibilidade.svg"
+                            alt="Livro sobre acessibilidade na web da alura books"></div>
+                    <div class="swiper-slide"><img src="assets/img/svg/Javascript.svg"
+                            alt="Livro sobre JavaScript Assertivo da alura books"></div>
+                    <div class="swiper-slide"><img src="assets/img/svg/MEAN.svg" alt="Livro sobre MEAN da alura books">
+                    </div>
+                    <div class="swiper-slide"><img src="assets/img/svg/MetricasAgeis.svg"
+                            alt="Livro sobre Metricas Ageis da alura books"></div>
+                    <div class="swiper-slide"><img src="assets/img/svg/Portugol.svg"
+                            alt="Livre sobre Portugol da alura books"></div>
                 </div>
-                <div class="swiper-slide"><img src="assets/img/svg/MetricasAgeis.svg"
-                        alt="Livro sobre Metricas Ageis da alura books"></div>
-                <div class="swiper-slide"><img src="assets/img/svg/Portugol.svg"
-                        alt="Livre sobre Portugol da alura books"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
 
-        <div class="card">
-            <!--1ª linha-->
-            <div class="card__descricao">
-                <div class="decricao">
-                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <div class="card">
+                <!--1ª linha-->
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <img src="assets/img/svg/Angular.svg" alt="Imagem do angular" class="descricao__imagem">
                 </div>
-                <img src="assets/img/svg/Angular.svg" alt="Imagem do angular" class="descricao__imagem">
-            </div>
-            <!--2ª linha-->
-            <div class="card__botoes">
-                <ul class="botoes">
-                    <li class="botoes__item"><img src="assets/img/svg/Favoritos.svg" alt="Favoritar livro"></li>
-                    <li class="botoes__item"><img src="assets/img/svg/Compras.svg"
-                            alt="Adicionar ao carrinho de compra"></li>
-                </ul>
-                <a href="#" class="botoes__ancora">Saiba Mais</a>
+                <!--2ª linha-->
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="assets/img/svg/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="assets/img/svg/Compras.svg"
+                                alt="Adicionar ao carrinho de compra"></li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba Mais</a>
+                </div>
             </div>
         </div>
-        </div>
-
     </section>
 
     <section class="carrossel">
@@ -210,7 +211,7 @@
             <div class="card">
                 <!--1ª linha-->
                 <div class="card__descricao">
-                    <div class="decricao">
+                    <div class="descricao">
                         <img src="assets/img/svg/Estrelinhas.svg" alt="" class="descricao__estrela">
                         <h3 class="descricao__titulo">Autora do Mês</h3>
                         <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
@@ -229,7 +230,7 @@
                     <a href="#" class="botoes__ancora">Saiba Mais</a>
                 </div>
             </div>
-
+        </div>
     </section>
 
     <section class="topicos">

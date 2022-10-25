@@ -109,10 +109,14 @@ body {
         width: 40%;
         margin: 2em auto;
     }
+
+    .botoes__ancora:active {
+        background-color: var(--azul);
+    }
 }
 
-@media screen and (min-width: 1728px){
-    .carrossel__container{
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
         display: flex;
         margin: 0 20vw 3em 20vw;
         align-items: center;
@@ -122,35 +126,37 @@ body {
         margin: 1em 0;
     }
 
-    .swiper{
+    .swiper {
         width: 50%;
     }
 
-    .descricao{
+    .descricao {
         margin-right: 2em;
     }
 
-    .descricao__titulo{
+    .descricao__titulo {
         font-size: 32px;
     }
 
-    .descricao__texto{
+    .descricao__texto {
         font-size: 16px;
     }
 
-    .card{
+    .card {
         width: 70%;
         margin-left: 4em;
     }
 
-    .botoes__ancora{
+    .botoes__ancora {
         margin: 0.6rem 0;
 
     }
 
-    .botoes__item{
+    .botoes__item {
         margin-top: 1.3rem;
     }
 
-
+    .botoes__ancora:active {
+        background-color: var(--azul);
+    }
 }
